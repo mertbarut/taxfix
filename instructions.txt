@@ -1,0 +1,15 @@
+# Task 1
+
+1. cd into task1
+2. type `python3 main.py` into the terminal, press enter
+3. done
+
+# Task 2
+
+1. I used db-fiddle for demo purposes, here is the link:
+https://www.db-fiddle.com/f/6RMrkdYrApPoiDzizRZeyb/0
+
+If the link doesn't work, you can go to https://www.db-fiddle.com and do the following:
+- copy-paste the contents of objective_1.sql onto the Schema SQL field,
+- copy-paste the contents of objective_2.sql and objective_3.sql onto the Query SQL field,
+- click on Run
