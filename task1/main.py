@@ -17,8 +17,6 @@ data = [row for row in csvin]
 
 header = data.pop(0)
 
-data.pop(0)
-
 table = list()
 
 for row in data:
@@ -38,7 +36,7 @@ values = [row['Quantity'] for row in table if row['User ID'] == user_lowest_id]
 avg = sum(values) / len(values)
 
 f1 = open('average_quantity.txt', 'w+')
-f1.write(f"{user_lowest_id}, {avg:.2f}")
+f1.write(f"{user_lowest_id}, {avg:.0f}")
 f1.close()
 
 # Objective 2
